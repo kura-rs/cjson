@@ -1,3 +1,6 @@
+mod parse;
+pub use parse::{parse, ParseError};
+
 /// A JSON value.
 ///
 /// Corresponds to `struct cJSON` in cJSON.h. cJSON stores every kind of
